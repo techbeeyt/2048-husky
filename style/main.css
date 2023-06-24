@@ -12,7 +12,8 @@ body {
   padding: 80px 0;
   background-image: url(img/bg.jpg);
   background-position: top center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat; 
+}
 
 .heading:after {
   content: "";
@@ -24,14 +25,18 @@ h1.title {
   font-weight: bold;
   margin: 0;
   display: block;
-  text-align: center; }
-  h1.title small {
-    font-size: 60px; }
+  text-align: center;
+  width: 100%;
+}
+h1.title small {
+  font-size: 60px; 
+}
 
 .title-container {
   position: relative;
   display: inline-block;
   padding-bottom: 10px;
+  width: 100%;
 }
 
 @-webkit-keyframes move-up {
@@ -555,9 +560,12 @@ hr {
 
   h1.title {
     font-size: 27px;
-    margin-top: 15px; }
-    h1.title small {
-      font-size: 27px; }
+    margin-top: 15px; 
+  }
+
+  h1.title small {
+    font-size: 27px; 
+  }
 
   .container {
     width: 280px;
