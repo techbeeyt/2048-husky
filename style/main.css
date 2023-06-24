@@ -560,7 +560,8 @@ hr {
 
   h1.title {
     font-size: 27px;
-    margin-top: 15px; 
+    margin-top: 15px;
+    text-align: center;
   }
 
   h1.title small {
